@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 16.5px;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+
+  input, select, textarea, button {
+    font-family: inherit;
+  }
+}
+
+/* Ensure placeholder text is always dark slate/black for high readability */
+::placeholder {
+  color: #334155 !important;
+  opacity: 0.85 !important;
+}

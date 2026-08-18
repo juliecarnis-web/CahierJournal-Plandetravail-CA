@@ -1,0 +1,6 @@
+{
+  "name": "Cahier Journal & Planificateur de Devoirs",
+  "description": "Application de Cahier Journal, progression spiralaire (matin/après-midi) et planificateur de devoirs connectée à PostgreSQL (Neon).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
